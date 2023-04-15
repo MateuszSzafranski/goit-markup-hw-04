@@ -1,1 +1,1 @@
-https://github.com/MateuszSzafranski/goit-markup-hw-04.git
+https://mateuszszafranski.github.io/goit-markup-hw-04/
