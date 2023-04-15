@@ -178,6 +178,11 @@ body {
     line-height: 1.71;
     letter-spacing: 0.02em;
     color: var(--brand-color-text-grey);
+    margin-right: 50px;
+}
+
+.contact-2{
+    margin-right: 0px;
 }
 
 .contact-nav {
@@ -222,6 +227,10 @@ body {
 .link-nav:hover,
 .link-nav:focus {
     color: var(--brand-color-blue);
+}
+
+.link-nav-2 {
+    margin-right: 0px;
 }
 
 .text-dec {
