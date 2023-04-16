@@ -146,13 +146,30 @@ body {
 }
 
 .icons-section-4 {
-    background: #FFFFFF;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #AFB1B8;
     margin-top: 16px;
     list-style: none;
+    gap: 10px;
+}
+
+.icons-section-4-list {
+    background: none;
+    width: 44px;
+    height: 44px;
     display: flex;
     justify-content: center;
-    gap: 22px;
+    align-items: center;
+}
+
+.icons-section-4-list:hover,
+.icons-section-4-list:focus {
+    fill: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .menu {
