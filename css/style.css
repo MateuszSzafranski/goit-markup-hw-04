@@ -396,6 +396,15 @@ body {
     color: var(--brand-color-black);
 }
 
+.heading5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-white);
+}
+
 .card-heading {
     background-color: var(--brand-color-white);
     text-align: center;
