@@ -58,7 +58,6 @@ body {
 }
 
 .item {
-    padding-top: 94px;
     flex-wrap: wrap;
     flex-basis: calc((100% - 20px) / 4);
 }
@@ -117,12 +116,11 @@ body {
 .section-2 {
     background-color: var(--brand-color-white);
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .section-3 {
     background-color: var(--brand-color-white);
-    padding: 94px 94px;
+    padding-bottom: 94px;
 }
 
 .section-4 {
@@ -138,6 +136,7 @@ body {
 
 .section-1-portfolio {
     background-color: var(--brand-color-white);
+    padding-bottom: 0px;
 }
 
 .section-2-portfolio {
@@ -418,7 +417,9 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
-    border: 1px solid #EEEEEE;   
+    border-left: 1px solid #EEEEEE;  
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .img-no-gap {
