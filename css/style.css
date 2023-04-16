@@ -110,7 +110,7 @@ body {
 
 .section-1 {
     background-color: var(--brand-color-background);
-    background: url(../images/background.jpg);
+    background: url(/images/background.jpg);
 }
 
 
