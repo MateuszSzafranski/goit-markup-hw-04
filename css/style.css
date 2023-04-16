@@ -185,6 +185,14 @@ body {
     fill: var(--brand-color-text-grey);
 }
 
+.icons-mail:hover,
+.icons-mail:focus,
+.icons-tel:hover,
+.icons-tel:focus {
+    fill: var(--brand-color-blue);
+    cursor: pointer;
+}
+
 .contact {
     font-style: normal;
     font-weight: 500;
