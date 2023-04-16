@@ -309,14 +309,14 @@ body {
     width: 121px;
     height: 38px;
     border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    margin: 4px;
+    margin-right: 8px;
 }
 
 .pointer:focus {
     color: var(--brand-color-white);
     background-color: var(--brand-color-blue);
-    }
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .pointer2 {
     font-family: 'Roboto';
@@ -347,6 +347,7 @@ body {
  {
     color: var(--brand-color-white);
     background-color: var(--brand-color-blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
