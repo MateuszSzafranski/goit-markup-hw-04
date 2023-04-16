@@ -78,14 +78,6 @@ body {
     gap: 30px; 
 }
 
-.container-section-5 {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
 .container-section2-portfolio {
     align-items: center;
     list-style: none;
@@ -169,6 +161,31 @@ body {
     fill: var(--brand-color-white);
     background-color: var(--brand-color-blue);
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons-section-5 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    gap: 30px;
+}
+
+.icons-section-5-list {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-section-5-list:hover,
+.icons-section-5-list:focus {
+    fill: var(--brand-color-blue);
     cursor: pointer;
 }
 
