@@ -46,8 +46,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-bottom: 200px;
-    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .container-section2 {
@@ -95,7 +95,9 @@ body {
 
 .section-1 {
     background-color: var(--brand-color-background);
+    background: url(/images/background.jpg);
 }
+
 
 .section-2 {
     background-color: var(--brand-color-white);
@@ -191,6 +193,10 @@ body {
 .icons-tel:focus {
     fill: var(--brand-color-blue);
     cursor: pointer;
+}
+
+.icons-lorem {
+    background: #2196f3;
 }
 
 .contact {
