@@ -145,6 +145,16 @@ body {
     padding-top: 50px;
 }
 
+.icons-section-4 {
+    background: #FFFFFF;;
+    fill: #AFB1B8;
+    margin-top: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
 .menu {
     background-color: var(--brand-color-white);
     padding-top: 24px;
@@ -216,7 +226,9 @@ body {
 }
 
 .icons-lorem {
-    background: #2196f3;
+    background: var(--brand-color-grey);
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .contact {
