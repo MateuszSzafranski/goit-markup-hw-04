@@ -79,6 +79,14 @@ body {
     gap: 30px; 
 }
 
+.container-section-5 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
 .container-section2-portfolio {
     align-items: center;
     list-style: none;
@@ -113,6 +121,12 @@ body {
 .section-4 {
     background-color: var(--brand-color-grey);
     padding: 94px 94px;
+}
+
+.section-5 {
+    background-color: var(--brand-color-white);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-1-portfolio {
