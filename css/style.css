@@ -280,7 +280,7 @@ body {
     justify-content: center;
     align-items: center;
     fill: var(--brand-color-white);
-    margin-top: 16px;
+    margin-top: 20px;
     list-style: none;
     gap: 10px;
 }
@@ -483,6 +483,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--brand-color-white);
 }
 
