@@ -108,6 +108,7 @@ body {
 .section-2 {
     background-color: var(--brand-color-white);
     padding-top: 94px;
+    padding-bottom: 0px;
 }
 
 .section-3 {
