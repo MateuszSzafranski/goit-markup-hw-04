@@ -188,6 +188,7 @@ body {
 .icons-section-5-list:focus {
     fill: var(--brand-color-blue);
     cursor: pointer;
+    border: 1px solid var(--brand-color-blue);
 }
 
 .menu {
