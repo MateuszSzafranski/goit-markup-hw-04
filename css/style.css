@@ -101,7 +101,7 @@ body {
 
 .section-1 {
     background-color: var(--brand-color-background);
-    background: url(/images/background.jpg);
+    background-image: url(/images/Img\ \(10\).jpg);
 }
 
 
@@ -263,6 +263,38 @@ body {
     background: var(--brand-color-grey);
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-footer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--brand-color-white);
+    margin-top: 16px;
+    list-style: none;
+    gap: 10px;
+}
+
+.icons-footer-list {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icons-footer-list:hover,
+.icons-footer-list:focus {
+    background: var(--brand-color-blue);
+    cursor: pointer;
 }
 
 .contact {
