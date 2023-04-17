@@ -101,7 +101,7 @@ body {
 
 .section-1 {
     background-color: var(--brand-color-background);
-    background-image: url(/images/Img\ \(10\).jpg);
+    background-image: url(../images/background.jpg);
 }
 
 
@@ -265,6 +265,8 @@ body {
     background: var(--brand-color-grey);
     border-radius: 4px;
     margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .icons-footer {
@@ -548,9 +550,20 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-    
 
 .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.footer-container-1 {
+    display: block;
+}
+    
+
+.footer-container-list {
     list-style: none;
     padding-top: 20px;
 }
